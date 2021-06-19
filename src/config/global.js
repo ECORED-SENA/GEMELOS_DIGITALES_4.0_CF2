@@ -15,7 +15,7 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-play-circle',
+        icono: 'far fa-file-alt',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
@@ -105,54 +105,31 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
+        cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Astrid Lili Puerta',
-        cargo: 'Experta temática',
-        centro: 'Centro Agropecuario de Buga',
-        regional: 'Regional valle',
-      },
-      {
-        nombre: 'Javier Enrique Santana',
+        nombre: ['Carlos Andrés Ossa Jiménez ', 'José Eduardo Chaves Peña'],
         cargo: 'Experto temático',
-        centro: 'Centro de Gestión Industrial',
-        regional: 'Regional Distrito Capital',
+        centro: 'Centro de Diseño Tecnológico Industrial',
       },
       {
-        nombre: 'Michael Andrés Cortés Caro',
+        nombre: 'Oscar Riveros',
         cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
+        centro: 'Centro Diseño y Metrología',
       },
       {
-        nombre: 'Mauricio Jiménez Fajardo',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Manuel Alejandro Garzón Cárdenas',
-        cargo: 'Experto temático',
-        centro: 'Deutsche Gesellschaft für',
-        regional: 'Internationale Zusammenarbeit (GIZ)',
-      },
-      {
-        nombre: 'Liliana Victoria Morales Gualdrón',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Carlos Andrés Rodríguez',
-        cargo: 'Evaluador instruccional',
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
+        nombre: 'Miroslava González Hernández',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: 'Centro de Gestión Industrial',
+      },
+      {
         regional: 'Regional Distrito Capital',
       },
     ],
@@ -160,32 +137,53 @@ export default {
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
+      },
+      {
+        nombre: 'Carlos Julián Ramírez Benítez',
+        cargo: 'Diseño web',
+      },
+      {
+        nombre: ['Carlos Julián Ramírez Benítez'],
+        cargo: 'Diseño web',
+      },
+      {
+        nombre: [
+          'Wilson Andrés Arenales Cáceres',
+          'Gilberto Junior Rodríguez Rodríguez',
+          'Lina Pérez',
+          'Ricardo Vásquez',
+        ],
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: ['Luis Jesús Pérez Madariaga'],
+        cargo: 'Desarrollo front-end',
+      },
+      {
+        nombre: ['Validación de diseño y contenido'],
+        cargo: 'Jhana Johanna Bustillo Ardila',
+      },
+      {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Integración de recursos y pruebas',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
       },
       {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
-        cargo: 'Diseño web y Producción Audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        nombre: 'Leyson Fabian Castaño Pérez',
+        cargo: 'Soporte organizacional',
       },
       {
-        nombre: 'Edward Leonardo Pico Cabra',
-        cargo: 'Desarrollo Front-End',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: ['Validación y vinculación en plataforma LMS'],
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
@@ -251,7 +249,7 @@ export default {
     {
       termino: 'CAD/CAM',
       significado:
-        'CAD CAM es la integración del diseño asistido por ordenador y el software de fabricación asistido por ordenador, con el objetivo de obtener una gestión de los cambios del diseño sencillo, una concepción del diseño simultánea y una configuración del proceso de fabricación flexible, especialmente para el diseño y la fabricación de prototipos y de piezas acabadas.',
+        ' CAD CAM es la integración del diseño asistido por ordenador y el software de fabricación asistido por ordenador, con el objetivo de obtener una gestión de los cambios del diseño sencillo, una concepción del diseño simultánea y una configuración del proceso de fabricación flexible, especialmente para el diseño y la fabricación de prototipos y de piezas acabadas.',
     },
     {
       termino: 'Ensamble',
@@ -259,7 +257,7 @@ export default {
         'Archivo de pieza que contiene un conjunto de partes, componentes y subensambles, que se utilizarán en un ensamble de nivel superior.',
     },
     {
-      termino: 'Entorno de Plano',
+      termino: 'Entorno de plano',
       significado:
         'Módulo de NX que permite realizar dibujos de ingeniería que cumplan con las principales normas internacionales.',
     },
@@ -269,7 +267,7 @@ export default {
         'Creación de un explosionado (esquematización) de un conjunto de componentes dentro de un ensamble.',
     },
     {
-      termino: 'Gemelo Digital',
+      termino: 'Gemelo digital',
       significado:
         'Representación virtual de un producto o proceso físico que se utiliza para comprender y predecir las características de rendimiento de su equivalente físico. Los gemelos digitales se utilizan a lo largo de todo el ciclo de vida del producto para simular, predecir y optimizar el producto y el sistema de producción antes de invertir en prototipos y activos físicos.',
     },

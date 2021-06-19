@@ -20,13 +20,13 @@
           .h5.mb-2 1. Cree un nuevo archivo
 
         .tarjeta.color-terciario.p-3(x="20%" y="37%" style="background-color:#02FFCE")
-          .h5.mb-2 2. Elija «Ensamblaje» en la pestaña «Modelo».
+          .h5.mb-2 2. Elija «Ensamblaje» en la pestaña «Modelo»
 
         .tarjeta.color-terciario.p-3(x="55%" y="25%" style="background-color:#02FFCE")
           .h5.mb-2 3. Establezca las unidades
 
         .tarjeta.color-terciario.p-3(x="66%" y="74%" style="background-color:#02FFCE")
-          .h5.mb-2 4. Defina un nombre al archivo con extensión prt. 
+          .h5.mb-2 4. Defina un nombre al archivo con extensión prt
 
         .tarjeta.color-terciario.p-3(x="66%" y="83%" style="background-color:#02FFCE")
           .h5.mb-2 5. Seleccione la ubicación
@@ -95,7 +95,7 @@
 
         figure.mt-4
           img(src='@/assets/curso/tema1/6.svg', alt='ensambles')
-          figcaption Restricción Tocar o alinear
+          figcaption Restricción tocar o alinear
       
       .tarjeta.p-5(titulo="Concéntrico")
         h4 Concéntrico
@@ -113,7 +113,7 @@
 
         figure.mt-4
           img(src='@/assets/curso/tema1/8.svg', alt='ensambles')
-          figcaption Restricción de Distancia 
+          figcaption Restricción de distancia 
 
       .tarjeta.p-5(titulo="Alinear")
         h4 Alinear
@@ -136,7 +136,7 @@
       .tarjeta.p-5(titulo="Perpendicular")
         h4 Perpendicular
 
-        p.mt-3 Esta relación permite de las caras de dos componentes queden perpendiculares, es decir que forman 90º entre ellas.
+        p.mt-3 Esta relación permite que las caras de dos componentes queden perpendiculares, es decir que forman 90º entre ellas.
 
         figure.mt-4
           img(src='@/assets/curso/tema1/11.svg', alt='ensambles')

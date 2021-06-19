@@ -48,7 +48,7 @@
         .col-md-6.mb-3.p-4
           h4 Explosionado (secuencias) de componentes
 
-          p.mt-3 Una vista explosionada del ensamblaje permite mostrar una imagen separada, de cada uno de los componentes del ensamblaje. En la práctica industrial, este tipo de vistas son muy útiles en el taller de ensamblaje para tener una referencia de la ubicación espacial de los componentes de un producto. El usuario debe comprender que explotar un ensamblaje no significa reubicar los componentes, sino solo ver los modelos en forma de desmontaje. Puede anular la explosión de la vista en cualquier momento que desee recuperar la vista del ensamblaje original.
+          p.mt-3 Una #[strong vista explosionada] del ensamblaje permite mostrar una imagen separada, de cada uno de los componentes del ensamblaje. En la práctica industrial, este tipo de vistas son muy útiles en el taller de ensamblaje para tener una referencia de la ubicación espacial de los componentes de un producto. El usuario debe comprender que explotar un ensamblaje no significa reubicar los componentes, sino solo ver los modelos en forma de desmontaje. Puede anular la explosión de la vista en cualquier momento que desee recuperar la vista del ensamblaje original.
 
           p.mt-4 Elija Menú → Ensamblajes → Vistas esquemáticas → Nueva esquematización
 

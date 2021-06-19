@@ -7,9 +7,9 @@
         span 3
       h1 Módulo de plano
 
-    p La aplicación NX 12 #[strong Dibujo] le permite crear dibujos, vistas, geometrías, dimensiones y anotaciones de dibujo necesarias para la fabricación y la comprensión de un diseño. La aplicación de dibujo admite la elaboración de modelos de ingeniería de acuerdo con los estándares ANSI. 
+    p La aplicación NX 12 #[strong Dibujo] le permite crear dibujos, vistas, geometrías, dimensiones y anotaciones de dibujo, necesarias para la fabricación y la comprensión de un diseño. La aplicación de dibujo admite la elaboración de modelos de ingeniería de acuerdo con los estándares ANSI. 
 
-    p.mt-4 Está diseñada para producir y editar dibujos de ingeniería estándar de la industria directamente desde el modelo 3D o la pieza de ensamblaje. Los dibujos creados en la aplicación son completamente asociativos al modelo y cualquier cambio realizado en el modelo se refleja automáticamente en el dibujo. La aplicación Dibujo también ofrece un conjunto de herramientas de dibujo 2D para definir requisitos de diseño, también se pueden producir dibujos 2D independientes. El módulo de dibujo se basa en la creación de vistas a partir de un modelo sólido, facilitando la creación de dibujos con vistas ortográficas, vistas en sección, vistas importadas, vistas auxiliares, cotas y otras anotaciones.
+    p.mt-4 Está diseñada para producir y editar dibujos de ingeniería estándar de la industria, directamente desde el modelo 3D o la pieza de ensamblaje. Los dibujos creados en la aplicación son completamente asociativos al modelo y cualquier cambio realizado en el modelo se refleja automáticamente en el dibujo. La aplicación Dibujo también ofrece un conjunto de herramientas de dibujo 2D para definir requisitos de diseño, también se pueden producir dibujos 2D independientes. El módulo de dibujo se basa en la creación de vistas a partir de un modelo sólido, facilitando la creación de dibujos con vistas ortográficas, vistas en sección, vistas importadas, vistas auxiliares, cotas y otras anotaciones.
 
     p.mt-5 #[strong Desde la interfaz NX 12, elija Archivo → Dibujo en el plano como se muestra o elija la pestaña Aplicación y seleccione Dibujo en plano.]
 
@@ -35,11 +35,11 @@
       PasosB.color-acento-botones
         .p-5(titulo="Panel de herramientas y comandos")
           h4 Panel de herramientas y comandos
-          p.mt-3 El panel contiene los principales comandos para el desarrollo de operaciones de dibujo de planos agrupados como vista, cotas, anotaciones croquis y tablas.También, contiene todos los comandos de dibujo necesarios para realizar un plano que contiene toda la información técnica del gemelo digital.
+          p.mt-3 El panel contiene los principales comandos para el desarrollo de operaciones de dibujo de planos agrupados como vista, cotas, anotaciones, croquis y tablas. También, contiene todos los comandos de dibujo necesarios para realizar un plano que contiene toda la información técnica del gemelo digital.
       
           figure.mt-3
             img(src='@/assets/curso/tema3/3.svg', alt='herramientas')
-            figcaption Barra de comandos
+            figcaption.bg-1 Barra de comandos
 
           div(style="height:1100px;")
 
@@ -50,7 +50,7 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/4.svg', alt='herramientas')
-            figcaption Nueva hoja
+            figcaption.bg-1 Nueva hoja
 
           div(style="height:700px;")
 
@@ -61,27 +61,27 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/5.svg', alt='herramientas')
-            figcaption Asistente para creación de vistas
+            figcaption.bg-1 Asistente para creación de vistas
 
-          p.mt-5 En la opción «disposición» el asistente le permite elegir la configuración de las vistas que requiera, basta con seleccionar desde cuadro de diálogo.
+          p.mt-5 En la opción #[strong «disposición»] el asistente le permite elegir la configuración de las vistas que requiera, basta con seleccionar desde cuadro de diálogo.
       
           figure.mt-3
             img(src='@/assets/curso/tema3/6.svg', alt='herramientas')
-            figcaption Disposición de vistas
+            figcaption.bg-1 Disposición de vistas
 
           div(style="height:300px;")
 
 
-        .p-5(titulo="Vista Base")
-          h4 Vista Base
+        .p-5(titulo="Vista base")
+          h4 Vista base
 
-          p.mt-3 El cuadro de diálogo Vista Base con las opciones de #[strong «Vista»] y #[strong «Escala»] se mostrará junto con un dibujo flotante del objeto.
+          p.mt-3 El cuadro de diálogo Vista base con las opciones de #[strong «Vista»] y #[strong «Escala»] se mostrará junto con un dibujo flotante del objeto.
 
           p.mt-3 Elija la vista para que sea frontal.
       
           figure.mt-3
             img(src='@/assets/curso/tema3/7.svg', alt='herramientas')
-            figcaption Vista base
+            figcaption.bg-1 Vista base
 
           p.mt-4 Puede encontrar la proyección de la vista frontal en la pantalla. Puede mover el cursor del mouse en la pantalla y hacer clic en el lugar donde desea la vista. Una vez que configure la Vista frontal, aparecerá otro cuadro de diálogo que le pedirá que configure las otras vistas en cualquier lugar de la pantalla dentro del límite de la hoja.
 
@@ -98,7 +98,7 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/8.svg', alt='herramientas')
-            figcaption Cambio de escala
+            figcaption.bg-1 Cambio de escala
 
           div(style="height:750px;")
 
@@ -109,11 +109,11 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/9.svg', alt='herramientas')
-            figcaption Comando vista proyectada
+            figcaption.bg-1 Comando vista proyectada
 
           figure.mt-5
             img(src='@/assets/curso/tema3/10.svg', alt='herramientas')
-            figcaption Vista proyectada
+            figcaption.bg-1 Vista proyectada
 
           div(style="height:350px;")
 
@@ -124,11 +124,11 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/11.svg', alt='herramientas')
-            figcaption Comando línea seccional
+            figcaption.bg-1 Comando línea seccional
 
           figure.mt-5
             img(src='@/assets/curso/tema3/12.svg', alt='herramientas')
-            figcaption Línea seccional
+            figcaption.bg-1 Línea seccional
 
           div(style="height:450px;")
 
@@ -139,24 +139,24 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/13.svg', alt='herramientas')
-            figcaption Comando Vista de sección
+            figcaption.bg-1 Comando Vista de sección
 
           p.mt-5 En definición se puede seleccionar una línea de seccional independiente ya definida como se observa en la figura.
       
           figure.mt-3
             img(src='@/assets/curso/tema3/14.svg', alt='herramientas')
-            figcaption Vista de sección
+            figcaption.bg-1 Vista de sección
 
           div(style="height:450px;")
 
-        .p-5(titulo="Vista en Detalle")
-          h4 Vista en Detalle
+        .p-5(titulo="Vista en detalle")
+          h4 Vista en detalle
 
           p.mt-3 Crea una vista que contiene una porción ampliada a una escala específica de una vista de dibujo.
       
           figure.mt-3
             img(src='@/assets/curso/tema3/15.svg', alt='herramientas')
-            figcaption Vista de detalle
+            figcaption.bg-1 Vista de detalle
 
           div(style="height:900px;")
 
@@ -171,7 +171,7 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/16.svg', alt='herramientas')
-            figcaption Comandos de cota
+            figcaption.bg-1 Comandos de cota
 
           p.mt-5  Haga clic en puntos y aristas, mueva el #[strong mouse] y haga clic en la ubicación adecuada para dibujar las dimensiones.
 
@@ -179,7 +179,7 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/17.svg', alt='herramientas')
-            figcaption Cota rápida
+            figcaption.bg-1 Cota rápida
 
         .p-5(titulo="Anotaciones")
           h4 Anotaciones
@@ -188,13 +188,13 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/18.svg', alt='herramientas')
-            figcaption Comando de anotaciones
+            figcaption.bg-1 Comando de anotaciones
 
           p.mt-5 El comando nota permite crear una especificación particular de un componente.
       
           figure.mt-3
             img(src='@/assets/curso/tema3/19.svg', alt='herramientas')
-            figcaption Nota
+            figcaption.bg-1 Nota
 
           div(style="height:200px;")
 
@@ -205,13 +205,13 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/20.svg', alt='herramientas')
-            figcaption Comandos de tabla
+            figcaption.bg-1 Comandos de tabla
 
           p.mt-5 El sistema identifica automáticamente la vista de ensamble y genera una tabla con identificación de cada componente, mostrando el nombre de la pieza y la cantidad de elementos en el ensamble. Ademan identifica el orden de ensamble con un número.
       
           figure.mt-3
             img(src='@/assets/curso/tema3/21.svg', alt='herramientas')
-            figcaption Lista de piezas
+            figcaption.bg-1 Lista de piezas
 
         .p-5(titulo="Globos")
           h4 Globos
@@ -220,11 +220,11 @@
       
           figure.mt-3
             img(src='@/assets/curso/tema3/22.svg', alt='herramientas')
-            figcaption Comando globos automático
+            figcaption.bg-1 Comando globos automático
 
           figure.mt-5
             img(src='@/assets/curso/tema3/23.svg', alt='herramientas')
-            figcaption Globos automáticos
+            figcaption.bg-1 Globos automáticos
 
 </template>
 
@@ -237,4 +237,11 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass">
+.pasos-b__header__item__dot
+  background-color: #00C3BB
+  border: none
+  color: white
+.bg-1
+  background-color:#D2E1F1
+</style>
