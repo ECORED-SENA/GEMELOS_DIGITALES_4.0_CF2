@@ -15,7 +15,7 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'far fa-file-alt',
+        icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
@@ -148,10 +148,10 @@ export default {
       },
       {
         nombre: [
-          'Wilson Andrés Arenales Cáceres',
           'Gilberto Junior Rodríguez Rodríguez',
           'Lina Pérez',
           'Ricardo Vásquez',
+          'Wilson Andrés Arenales Cáceres',
         ],
         cargo: 'Producción audiovisual',
       },
