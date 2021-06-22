@@ -101,6 +101,7 @@ export default {
     liderEquipo: {
       nombre: 'Maria Camila Garcia Santamaria',
       cargo: 'Líder del equipo',
+      centro: 'Dirección General',
     },
     contenidoInstruccional: [
       {
@@ -110,74 +111,96 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: ['Carlos Andrés Ossa Jiménez ', 'José Eduardo Chaves Peña'],
+        nombre: 'Carlos Andrés Ossa Jiménez',
         cargo: 'Experto temático',
         centro: 'Centro de Diseño Tecnológico Industrial',
+        regional: 'Regional Valle del Cauca',
+      },
+      {
+        nombre: 'José Eduardo Chaves Peña',
+        cargo: 'Experto temático',
+        centro: 'Centro de Diseño Tecnológico Industrial',
+        regional: 'Regional Valle del Cauca',
       },
       {
         nombre: 'Oscar Riveros',
         cargo: 'Experto temático',
         centro: 'Centro Diseño y Metrología',
+        regional: 'Regional Distrito Capital',
       },
       {
         nombre: 'Carolina Coca Salazar',
         cargo: 'Diseñadora instruccional',
         centro: 'Centro de Diseño y Metrología',
+        regional: 'Regional Distrito Capital',
       },
       {
         nombre: 'Miroslava González Hernández',
         cargo: 'Diseñadora y evaluadora instruccional',
         centro: 'Centro de Gestión Industrial',
-      },
-      {
         regional: 'Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable equipo',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Pérez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
       },
       {
         nombre: 'Carlos Julián Ramírez Benítez',
         cargo: 'Diseño web',
-      },
-      {
-        nombre: ['Carlos Julián Ramírez Benítez'],
-        cargo: 'Diseño web',
-      },
-      {
-        nombre: [
-          'Gilberto Junior Rodríguez Rodríguez',
-          'Lina Pérez',
-          'Ricardo Vásquez',
-          'Wilson Andrés Arenales Cáceres',
-        ],
-        cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: ['Luis Jesús Pérez Madariaga'],
-        cargo: 'Desarrollo front-end',
-      },
-      {
-        nombre: ['Validación de diseño y contenido'],
-        cargo: 'Jhana Johanna Bustillo Ardila',
-      },
-      {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
         nombre: 'Zuleidy María Ruiz Torres',
         cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Pérez',
-        cargo: 'Soporte organizacional',
-      },
-      {
         centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Lina Pérez',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Ricardo Vásquez',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Luis Jesús Pérez Madariaga',
+        cargo: 'Desarrollo front-end',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Validación de diseño y contenido',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
     ],
     gestoresRepositorio: [

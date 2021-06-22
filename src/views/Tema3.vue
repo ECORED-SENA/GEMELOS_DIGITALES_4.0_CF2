@@ -27,7 +27,7 @@
 
     .col-md-12(style="margin:0 auto")
       figure
-        img(src='@/assets/curso/tema3/2.svg', alt='ensambles')
+        img(src='@/assets/curso/tema3/2.png', alt='ensambles')
 
     p.mt-5 A continuación, se presentan distintas funciones para el diseño de un plano.
 
