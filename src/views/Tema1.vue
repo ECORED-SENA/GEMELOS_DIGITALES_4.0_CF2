@@ -192,4 +192,6 @@ export default {
   background-color: #e8e8e8
 .tabs-a__content-item.tabs-a__content-item--active
     background-color: rgba(124,197,255,.15)
+.tabs-a__tab__text
+  height: 1.2rem !important
 </style>
