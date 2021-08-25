@@ -64,7 +64,7 @@
 
         .col-md-6
           figure
-            img(src='@/assets/curso/tema2/5.svg', alt='ensambles')
+            img(src='@/assets/curso/tema2/5.png', alt='ensambles')
             figcaption Editar Esquematización (explosionado)
 
 

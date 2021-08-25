@@ -108,7 +108,7 @@
           p.mt-3 Crea una vista auxiliar a partir de una base. NX deduce automáticamente la alineación ortogonal o auxiliar a medida que se mueve el cursor en un movimiento circular sobre el centro de la vista madre.
       
           figure.mt-3
-            img(src='@/assets/curso/tema3/9.svg', alt='herramientas')
+            img(src='@/assets/curso/tema3/9.svg', alt='herramientas' style="max-width:500px;")
             figcaption.bg-1 Comando vista proyectada
 
           figure.mt-5
@@ -123,7 +123,7 @@
           p.mt-3 Crea una línea seccional independiente basada en un croquis que se puede utilizar para crear una vista seccional o una línea derivada de un símbolo del plano de corte.
       
           figure.mt-3
-            img(src='@/assets/curso/tema3/11.svg', alt='herramientas')
+            img(src='@/assets/curso/tema3/11.svg', alt='herramientas' style="max-width:500px;")
             figcaption.bg-1 Comando línea seccional
 
           figure.mt-5
@@ -187,7 +187,7 @@
           p.mt-3 El grupo de anotación contiene los comandos necesarios para definir información técnica como: anotaciones, tolerancias geométricas, soldaduras, acabado superficial, los indicadores de referencia y achurado, entre otros.
       
           figure.mt-3
-            img(src='@/assets/curso/tema3/18.svg', alt='herramientas')
+            img(src='@/assets/curso/tema3/18.svg', alt='herramientas' style="max-width:500px;")
             figcaption.bg-1 Comando de anotaciones
 
           p.mt-5 El comando nota permite crear una especificación particular de un componente.
@@ -204,7 +204,7 @@
           p.mt-3 Este comando se encuentra en el grupo tabla y permite crear una lista de piezas en un plano de conjunto o explosionado.
       
           figure.mt-3
-            img(src='@/assets/curso/tema3/20.svg', alt='herramientas')
+            img(src='@/assets/curso/tema3/20.svg', alt='herramientas' style="max-width:500px;")
             figcaption.bg-1 Comandos de tabla
 
           p.mt-5 El sistema identifica automáticamente la vista de ensamble y genera una tabla con identificación de cada componente, mostrando el nombre de la pieza y la cantidad de elementos en el ensamble. Ademan identifica el orden de ensamble con un número.
@@ -219,7 +219,7 @@
           p.mt-3 Crea una lista de elementos de referencia en forma de globos con la numeración de cada componente en una vista conjunto o explosionado.
       
           figure.mt-3
-            img(src='@/assets/curso/tema3/22.svg', alt='herramientas')
+            img(src='@/assets/curso/tema3/22.svg', alt='herramientas' style="max-width:500px;")
             figcaption.bg-1 Comando globos automático
 
           figure.mt-5
