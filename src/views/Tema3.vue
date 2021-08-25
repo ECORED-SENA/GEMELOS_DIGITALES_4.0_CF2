@@ -138,7 +138,7 @@
           p.mt-3 Crea una vista de sección a partir de vista de dibujo padre. 
       
           figure.mt-3
-            img(src='@/assets/curso/tema3/13.svg', alt='herramientas')
+            img(src='@/assets/curso/tema3/13.svg', alt='herramientas' style="max-width:500px;")
             figcaption.bg-1 Comando Vista de sección
 
           p.mt-5 En definición se puede seleccionar una línea de seccional independiente ya definida como se observa en la figura.
